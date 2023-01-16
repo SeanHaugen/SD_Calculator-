@@ -17,12 +17,12 @@ function SelfPromo() {
     }
 
     return (
-        <div>
+        <form>
             <label>Calculate Self Promo Pricing:  </label>
             <input type='number' value={price} onChange={handleSubmit} placeholder='price' ></input>
             <button onClick={handleCalculation} >Submit</button>
             <div>Self Promo Price: {result}</div>
-        </div>
+        </form>
     )
 }
 
