@@ -7,7 +7,7 @@ function App() {
     return (
         <div>
             <header>
-                
+                <h1>Showdown Displays</h1>
             </header>
             <hr />
             <div className='flat-rate'>
