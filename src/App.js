@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import  FlatRate  from './components/FlatRate';
+import SelfPromo from './components/SelfPromo';
+import './index.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    return (
+        <div>
+            <header>
+                
+            </header>
+            <hr />
+            <div className='flat-rate'>
+                <FlatRate className='result' />
+            </div>
+            <hr />
+            <div className='self-promo'>
+                <SelfPromo className='result'/>
+            </div>
+            
+        </div>
+
+    )
 }
 
 export default App;
